@@ -1,0 +1,19 @@
+.messenger-container {
+	height: 400px;
+}
+
+.conversation-container-wrapper {
+	height: 100%;
+    background-color: #26a69a;
+}
+
+.aside-user-list-wrapper {
+	height: 100%;
+	background-color: #90a4ae;
+}
+
+@media only screen and (min-width: 768px) {
+	.messenger-container {
+		height: 500px;
+	}
+}

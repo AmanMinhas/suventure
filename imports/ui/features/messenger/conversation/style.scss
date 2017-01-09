@@ -1,0 +1,27 @@
+.send-form-wrapper {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    // padding: 10px 0px;
+    width: 100%
+}
+
+.submit-button {
+	background-color:#267c75;
+}
+
+.message-input {
+	padding-left: 10px !important;
+}
+
+.conversation {
+	height: 420px;
+	overflow-y : scroll;
+}
+
+@media only screen and (min-width: 768px) { 
+	.conversation {
+		height: 360px;
+		overflow-y : scroll;
+	}
+}
